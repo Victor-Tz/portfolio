@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Website Experience Feedback Form</h1>
+      <p id="description">
+        Thank you for for visiting my website, fill out the form to let me know you were here.
+      </p>
+    </header>
+    <main>
+      <form method="POST" action="" id="survey-form">
+        <fieldset>
+          <legend>General Information</legend>
+          <label for="name" id="name-label">Name (required):</label>
+          <input type="text" id="name" name="name" placeholder="e.g., John Doe" required size="20">
+
+          <label for="email" id="email-label">Email address (optional):</label>
+          <input
+            placeholder="example@email.com"
+            id="email"
+            type="email"
+            name="email"
+            size="20"
+          />
+          <label for="number" id="number-label">Age (optional):</label>
+          <input type="number" name="age" id="number" min="3" max="100" placeholder="18" />
+          <label for="organization" id="organization-label">Organization (optional):</label>
+          <input type="text" id="organization" name="organization" placeholder="e.g., Google" size="20">
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Are you a recruiter?</legend>
+          <input id="yes-option" type="radio" name="recruiter?" value="yes" />
+          <label for="yes-option">Yes</label>
+          <input id="no-option" type="radio" name="recruiter?" value="no" />
+          <label for="no-option">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            What have you liked the most? (Check all that apply)
+          </legend>
+
+          <input type="checkbox" id="Layout" name="choice" value="layout" />
+          <label for="layout">Layout</label>
+
+          <input
+            type="checkbox"
+            id="css"
+            name="choice"
+            value="css"
+          />
+          <label for="css">CSS</label>
+          
+          <input type="checkbox" id="projects" name="choice" value="projects" />
+          <label for="projects">Projects</label>
+
+          <input
+            type="checkbox"
+            id="about-me"
+            name="choice"
+            value="about-me"
+          />
+          <label for="about-me">about-me</label>
+         
+        </fieldset>
+
+        <fieldset>
+          <legend>Ratings</legend>
+
+          <label for="dropdown">What was the website like?
+</label>
+
+          <select name="service" id="dropdown">
+            <option value="bad">Bad</option>
+            <option selected value="average">Average</option>
+            <option value="very-good">Good</option>
+            <option value="excellent">Excellent</option>
+          </select>
+        </fieldset>
+        <fieldset>
+        <label for="feedback">Feedback</label>
+        <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+</fieldset>
+<button id="submit">Submit</button>
+          </form>
+    </main>
+  </body>
+</html>
+
+

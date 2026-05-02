@@ -1,0 +1,53 @@
+*{		margin: 	0px;
+		padding:	0px;		}
+
+header {	background: 	white;		}
+
+h1 {		margin-left:	5px		}
+
+#top-bar {	background:	black;		}
+
+nav > li {	display : 	inline-block;
+	  	margin: 	0px 5px;	}
+
+.link-style {	color:		white;
+		text-decoration:none;		}
+
+nav > li > a:active {
+
+		color:		cyan;
+		text-decoration:underline;	}
+
+nav > li > a:visited {
+
+		color: 		gray;		}
+
+hr	{	margin:		5px;		}
+
+body 	{	background:	white;		}
+
+main {		margin:		5px;
+		padding:	5px;		}
+
+p {		margin: 	0px 5px 5px 5px;		
+		padding:	0px 5px 5px 5px;}
+
+/*FOOTER*/
+footer {	background:	black;
+		color:		gray;		
+		text-align: 	center;		}
+
+footer > section > div > a:visited {
+
+		color:		gray;		}
+
+.socials, address {
+		font-size:	14px;
+		margin: 	2px;
+		padding:	3px;		}
+
+.socials { 	margin-top:	10px;
+		padding-top:	10px;		}
+
+.social-opt {	
+		padding: 0px 5px;}
